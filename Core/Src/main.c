@@ -441,7 +441,7 @@ void StartSERVOTask(void *argument)
 	        __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, current1);
 	        __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, current2);
 
-	        osDelay(20);
+	        osDelay(200);
 
 
 	    }
